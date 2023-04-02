@@ -59,23 +59,7 @@ namespace parcial2
             player.weaponAtk = wPower ; player.weaponDurability = durability; player.weaponName = wName; 
         }
 
-        public bool armorTypeSame(race CRace, aType type)
-        {
-            if (CRace.Equals(type) == true)
-            {
-                return true;
-            }
-            else return false;
-        }
 
-        public bool weaponTypeSame(race CRace, aType type)
-        {
-            if (CRace.Equals(type) == true)
-            {
-                return true;
-            }
-            else return false;
-        }
 
 
         public void attack(Character atacante, Character defensor)
